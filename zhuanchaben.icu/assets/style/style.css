@@ -1,0 +1,88 @@
+body {
+    /*background-color: #ffc0cb;*/
+    background-image: url("https://cdn2.poi.tech/ImgHub/material-design-wallpaper-2.jpg");
+    margin: 0;
+}
+
+#banner {
+    height: 1.5cm;
+    background-color: #28282A;
+    color: #FFFFFF;
+    font-size: 0.8cm;
+    box-shadow: 0 3px 10px Black;
+}
+
+#banner-title {
+    line-height: 1.5cm;
+    margin-left: 2%;
+}
+
+#text {
+    font-size: 2em;
+    padding: 1cm;
+    display: flex;
+    justify-content: center;
+}
+
+#countdown {
+    font-size: 3em;
+    padding-bottom: 1cm;
+    display: flex;
+    justify-content: center;
+}
+
+.countdown-days {
+    font-size: 1.5em;
+}
+
+#how-to {
+    margin-top: 1cm;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+#how-to-but {
+    display: block;
+    width: 15em;
+    height: 1.5em;
+    background: #1E0BD0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+#footer {
+    text-align: center;
+    width: 100%;
+    height: 1cm;
+    position: absolute;
+    bottom: 0;
+    background-color: #28282A;
+    display: flex;
+}
+
+#footer-blog {
+    flex: 1;  
+}
+
+#footer-link {
+    line-height: 1cm;
+    color: #FFFFFF;
+}
+
+
+
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
